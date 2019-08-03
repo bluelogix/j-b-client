@@ -1,0 +1,219 @@
+/* RESET
+RESET
+\*------------------------------------*/
+/* http://meyerweb.com/eric/tools/css/reset/ 
+v2.0b1 | 201101 
+NOTE:WORK IN PROGRESS
+USE WITH CAUTION AND TEST WITH ABANDON */
+html,
+body,
+div,
+span,
+applet,
+object,
+iframe,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+blockquote,
+pre,
+a,
+abbr,
+acronym,
+address,
+big,
+cite,
+code,
+del,
+dfn,
+em,
+img,
+ins,
+kbd,
+q,
+s,
+samp,
+small,
+strike,
+strong,
+sub,
+sup,
+tt,
+var,
+b,
+u,
+i,
+center,
+dl,
+dt,
+dd,
+ol,
+ul,
+li,
+fieldset,
+form,
+label,
+legend,
+table,
+caption,
+tbody,
+tfoot,
+thead,
+tr,
+th,
+td,
+article,
+aside,
+canvas,
+details,
+figcaption,
+figure,
+footer,
+header,
+hgroup,
+menu,
+nav,
+section,
+summary,
+time,
+mark,
+audio,
+video {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  outline: 0;
+  font-size: 100%;
+  font: inherit;
+  vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article,
+aside,
+details,
+figcaption,
+figure,
+footer,
+header,
+hgroup,
+menu,
+nav,
+section {
+  display: block;
+}
+body {
+  line-height: 1;
+}
+ol,
+ul {
+  list-style: none;
+}
+blockquote,
+q {
+  quotes: none;
+}
+blockquote:before,
+blockquote:after,
+q:before,
+q:after {
+  content: ’’;
+  content: none;
+}
+ins {
+  text-decoration: none;
+}
+del {
+  text-decoration: line-through;
+}
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+}
+* {
+  box-sizing: border-box;
+}
+html {
+  font-size: 62.5%;
+}
+*/
+.container {
+  max-width: 1024px;
+  width: 100%;
+  margin: 0 auto;
+}
+
+body {
+    background-color: #2F303A;
+    font-family: "Courier New", Courier, monospace
+}
+/* NAV BAR */
+.toggle-menu {
+    background-color: rgb(241, 241, 241);
+    display: flex;
+    justify-content: space-evenly;
+    font-size: 2.5rem;
+    padding: 1rem 0;
+}
+.toggle-menu a {
+    text-decoration: none;
+    color: #2F303A;
+}
+.toggle-menu a:hover {
+    color: rgb(255, 181, 20);
+}
+
+/* TOP */
+header {
+    position: relative;
+    height: 400px;
+    background-image: linear-gradient(rgba(0,0,0,.5), rgba(0,0,0,.5)),url("https://images.unsplash.com/photo-1517581177682-a085bb7ffb15?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1504&q=80");
+    background-repeat: no-repeat;
+    width:100%;
+  }
+
+  .middle h1 {
+    padding-top: 140px;
+    font-size: 6rem;
+    text-align: center;
+    margin: auto;
+    font-weight: bold;
+    color: white;
+    font-family: 'Times New Roman', Times, serif;
+  }
+  
+  header h1 {
+    color: rgb(11, 3, 0);
+  }
+  
+  svg {
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    height: 10vw;
+    /* set height to pixels if you want angle to change with screen width */
+  }
+/* MIDDLE */
+  .bottom {
+    background-image: linear-gradient( #2F303A, rgb(81, 81, 90))
+  }
+.content {
+ display: flex;
+ font-size: 5rem;
+ flex-wrap: nowrap;
+ justify-content: space-around;
+}
+/* .content1 {
+ border: 1px solid red;
+justify-content: space-around;
+} */
+ h2 {
+    text-align: center;
+    font-size: 7rem;
+    color: #fefdfc;
+}
+
+
