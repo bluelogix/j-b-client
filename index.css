@@ -227,12 +227,10 @@ header {
     font-size: 4rem;
     color: #fefdfc;
     background-image: linear-gradient(#24242469, #0202026e, transparent), url("https://images.pexels.com/photos/1669754/pexels-photo-1669754.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940");
-
     background-attachment: fixed;
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
-    /* min-height: 300px;  */
 } 
 .services {
   /* border: 2px solid black; */
@@ -253,23 +251,42 @@ header {
 .row {
   /* margin-top: 5rem; */
   display: flex;
+  /* background-color: black; */
+  
 }
 .column {
   padding: 9rem 0;
   flex: 50%;
   text-align: center;
+  font-size: 3.5rem;
+  color: red;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  margin-bottom: .2rem;
+  margin-left: .2rem;
+  margin-right: .2rem;
 }
 .first {
   background-color: whitesmoke;
+  background-image:  url("https://images.unsplash.com/photo-1517581177682-a085bb7ffb15?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1352&q=80");
+  /* margin-right: 1rem; */
+
 }
 .second {
   background-color: rgb(238, 238, 238);
+  background-image:  url("https://images.unsplash.com/photo-1460317442991-0ec209397118?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1050&q=80");
 }
 .third{
-  background-color: rgb(238, 238, 238);;
+  background-color: rgb(238, 238, 238);
+  /* margin-top: 1rem;
+  margin-right: 1rem; */
+
 }
 .fourth {
   background-color: whitesmoke;
+  /* margin-top: 1rem; */
+
 }
 
 .bottomRow {
