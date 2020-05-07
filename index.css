@@ -161,8 +161,8 @@ body {
   /* border: 2px solid black; */
 }
 .contact-info{
-  border: 2px solid black;
-  background-color: rgb(0, 0, 121);
+  /* border: 1px solid black; */
+  background-color: rgb(255, 212, 69);
   color: white;
   font-weight: bold;
   padding: .5rem 2rem;
@@ -180,9 +180,10 @@ a {
 }
 
 .initial-picture{
-    padding: 20rem;
-    font-size: 4rem;
-    background-image: linear-gradient(#5c5c5c69, #69696969, transparent), url("https://images.pexels.com/photos/1080721/pexels-photo-1080721.jpeg?auto=compress&cs=tinysrgb&h=750&w=1260");
+    padding: 20rem 2.5rem;
+    color: white;
+    font-size: 5rem;
+    background-image: linear-gradient(#00000069, #00000069, transparent), url("https://images.pexels.com/photos/1080721/pexels-photo-1080721.jpeg?auto=compress&cs=tinysrgb&h=750&w=1260");
     background-attachment: fixed;
     background-position: center;
     background-repeat: no-repeat;
@@ -193,17 +194,13 @@ a {
   } */
 
   .about-me {
-    /* border: 2px solid red; */
     padding: 5rem 2rem;
-    /* max-width: 500px; */
-    /* margin: auto; */
-    /* text-align: center; */
+    margin: 2rem 3rem;
     font-size: 2rem;
     background-color: rgb(231, 231, 231);
     display: flex;
   }
   .about-img {
-    float: right;
     padding: 0 3rem;
   }
 
@@ -215,7 +212,7 @@ a {
     background-repeat: no-repeat;
     background-size: cover; */
     /* margin-top: 3rem; */
-    padding: 4rem;
+    padding: 1rem;
     text-align: center;
     color: black;
     font-size: 3.5rem;
@@ -234,38 +231,37 @@ a {
     width: 25%;
     position: absolute; 
     bottom: 0;
+    padding: 1rem 0;
   }
   .column {
-    padding: 20rem 0;
-    /* max-width: 500px;
-    margin: auto; */
-    /* margin: 0 4rem; */
-    /* width: 50%; */
+    padding: 18rem 0;
+    margin: 1rem 3rem;
     flex: 50%;
     text-align: center;
-    font-size: 3.5rem;
-    color: red;
+    font-size: 2.5rem;
+    color: black;
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
   }
+  .column :hover {
+    background-color: rgb(255, 212, 69);
+}
   .first {
     background-color: whitesmoke;
     background-image: linear-gradient(#3a3a3a69, #3a3a3a69, transparent), url("https://images.pexels.com/photos/1396122/pexels-photo-1396122.jpeg?auto=compress&cs=tinysrgb&h=750&w=1260");
-    /* margin-right: 1rem; */
-    /* border-bottom: 2px solid white;
-    border-right: 2px solid white; */
   }
+
   .second {
     background-color: rgb(238, 238, 238);
     background-image: linear-gradient(#1d1d1d69, #1d1d1d69, transparent),url("https://images.unsplash.com/photo-1580792011357-05faf84eb078?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1050&q=80");
-    /* border-bottom: 2px solid white; */
   }
+
   .third{
     background-color: rgb(238, 238, 238);
     background-image: linear-gradient(#3a3a3a69, #3a3a3a69, transparent),url("https://images.unsplash.com/flagged/photo-1573168710465-7f7da9a23a15?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1050&q=80");
-    /* border-right: 2px solid white; */
   }
+
   .fourth {
     background-color: whitesmoke;
   background-image: linear-gradient(#3a3a3a69, #3a3a3a69, transparent), url("https://images.unsplash.com/photo-1460317442991-0ec209397118?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1050&q=80");
@@ -296,36 +292,43 @@ a {
 /* FOOTER */
 
 .footer {
-    text-align: center;
+  display: flex;
+  justify-content: center;
     background: rgb(93, 93, 93);
     color: white;
     padding: 2.5rem 0;
-    font-size: 1.5rem;
+    font-size: 1.7rem;
 }
-/* .footer input {
-    /* background:#2F303A;
-    width: 50%;
-    margin: auto;
+.form-box {
+  /* border: 2px solid black; */
+  /* padding: 9rem 0; */
+  border-radius: 2rem;
+  background-color: rgb(255, 255, 255);
+}
+.form-box h1 {
+  color: red;
+  text-align: center;
+}
+.footer input {
+    border-radius: 1rem;
+    background:#2F303A;
     border: none;
-    border-bottom: 2px solid whitesmoke;
-    padding: 5px 0;
-    margin-top: 2rem;
-    font-size: 2.5rem;
-    color: white; */
-    
-
-/* .footer input:focus {
+    padding: 1rem;
+    /* margin-top: 2rem; */
+    font-size: 2rem;
+    color: white; 
+    margin: 2rem 2rem;
+} 
+.desc {
+  padding: 10rem 0;
+}
+.footer input:focus {
   outline: none;
 }
-.footer button {
-    border: 2px solid white;
-    border-radius: 1px;
-    font-size: 2.5rem;
-   margin: 3rem 0;
-}
+
 .copy{
     font-size: 2rem;
-} */
+} 
 
 
 
