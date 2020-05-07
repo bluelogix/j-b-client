@@ -152,19 +152,37 @@ body {
 }
 /* NAV BAR */
 
-.toggle-menu {
+.schedule {
+  padding: 1rem;
+  display: flex;
+  font-size: 2rem;
+  align-items: baseline;
+  justify-content: flex-end;
+  /* border: 2px solid red; */
+  /* flex: right; */
+  /* margin: auto; */
+}
+.link {
+  border: 2px solid black;
+  background-color: rgb(0, 0, 121);
+  color: white;
+  font-weight: bold;
+  padding: .5rem 2rem;
+  margin: 0 .3rem;
+}
+
+/* .toggle-menu {
     font-size: 1.9rem;
-    padding: 1rem 2rem;
-    text-align: right;
-    /* background-image: linear-gradient(to right, rgb(243, 243, 243) , rgb(233, 233, 233)); */
+    margin:  2rem 6rem;
+} */
+a {
+    text-decoration: none;
+    color: black;
+    padding: 0 1rem;
 
 }
-.toggle-menu a {
-    text-decoration: none;
-    color: black
-}
-.toggle-menu a:hover {
-    color: rgb(255, 255, 255);
+ a :hover {
+    color: rgb(2, 19, 172);
 }
 
 /* TOP */
@@ -178,7 +196,7 @@ header {
 
   .top {
     display: flex;
-    margin: 11rem 6rem;
+    margin: 9rem 6rem;
   }
   .header {
     flex: 50%;
@@ -194,7 +212,7 @@ header {
   }
  
   .float {
-    background-color: white;
+    background-color: rgb(255, 255, 255);
     border: 2px solid black; 
     margin: auto;
     font-size: 1.5rem; 
@@ -221,11 +239,16 @@ header {
  justify-content: space-around;
  background-color: rgb(0, 10, 100);
 }
+.about-me {
+  border: 2px solid red;
+  padding: 10rem;
+  background-color: burlywood;
+}
  .above{
-    padding: 50px;
+    padding: 3rem;
+    font-family: 'Black Ops One', cursive;
     text-align: center;
     font-size: 4rem;
-    color: #fefdfc;
     background-image: url("https://images.pexels.com/photos/1669754/pexels-photo-1669754.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940");
     background-attachment: fixed;
     background-position: center;
@@ -239,7 +262,7 @@ header {
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
-  margin-top: 3rem;
+  /* margin-top: 3rem; */
   padding: 3rem;
   text-align: center;
   color: black;
@@ -262,7 +285,7 @@ header {
   bottom: 0;
 }
 .column {
-  padding: 12rem 0;
+  padding: 19rem 0;
   flex: 50%;
   text-align: center;
   font-size: 3.5rem;
@@ -280,6 +303,7 @@ header {
   /* margin-right: 1rem; */
   border-bottom: 2px solid white;
   border-right: 2px solid white;
+  
 
 
 }
@@ -302,20 +326,23 @@ background-image: linear-gradient(#3a3a3a69, #3a3a3a69, transparent), url("https
 }
 
 .bottomRow {
+  
 display: flex;
-background-color: rgb(17, 17, 17);
-color:white;
+background-color: rgb(255, 255, 255);
+color:rgb(255, 0, 0);
 }
 
 /* FOOTER */
 
 .footer {
     text-align: center;
-    background: rgb(56, 56, 56);
-    padding: 5rem 0;
+    background: rgb(93, 93, 93);
+    color: white;
+    padding: 2.5rem 0;
+    font-size: 1.5rem;
 }
 /* .footer input {
-    background:#2F303A;
+    /* background:#2F303A;
     width: 50%;
     margin: auto;
     border: none;
@@ -323,9 +350,10 @@ color:white;
     padding: 5px 0;
     margin-top: 2rem;
     font-size: 2.5rem;
-    color: white;
-}
-.footer input:focus {
+    color: white; */
+    
+} */
+/* .footer input:focus {
   outline: none;
 }
 .footer button {
