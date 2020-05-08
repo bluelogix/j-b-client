@@ -12,6 +12,9 @@
        font-size: .8rem;
        color: white;
       }
+      .cont{
+        display: none;
+      }
       .contact-info p{
         color: white;
       }
