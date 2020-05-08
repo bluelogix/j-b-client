@@ -10,11 +10,13 @@
       }
     .contact-info{
        font-size: .8rem;
-       color: white;
+       padding: .6rem;
+       color: black;
+       background-color: rgb(211, 211, 211);
       }
-      .cont{
+      /* .cont{
         display: none;
-      }
+      } */
       .contact-info p{
         color: white;
       }
