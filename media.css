@@ -5,6 +5,10 @@
         /* flex-direction: column; */
         align-items: flex-end;
     }
+    .nav h1{
+        padding: 5rem 3rem; 
+
+      }
     .contact-info{
        font-size: 1.2rem;
       }
@@ -23,11 +27,6 @@
         display: flex;
         flex-direction: column;
     }
-    .row p {
-        /* border: 2px solid black; */
-        display: none;
-        background-color: rgb(255, 255, 255);
-      }
       .bottomRow {
           display: flex;
           flex-direction: column;
