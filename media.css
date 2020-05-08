@@ -27,6 +27,15 @@
     .about-me {
         display: flex;
         flex-direction: column;
+        justify-content: center;
+    }
+    .about-me h1 {
+        text-align: center;
+        font-weight: bold;
+    }
+    .about-me img {
+        padding: 2rem 0;
+        width: 100%;
     }
     .row {
         display: flex;
