@@ -6,18 +6,15 @@
         align-items: flex-end;
     }
     .nav h1{
-        padding: 5rem 3rem; 
-
+        padding: 6rem 3rem; 
       }
     .contact-info{
-       font-size: 1.2rem;
+       font-size: 1rem;
+       color: white;
       }
 
     .initial-picture {
-        background-attachment: fixed;
-        background-position: center;
-        background-repeat: no-repeat;
-        background-size: cover;
+        background-attachment:scroll;
     }
     .about-me {
         display: flex;
