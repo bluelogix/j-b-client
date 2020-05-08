@@ -1,16 +1,19 @@
 @media only screen and (max-width: 700px) {
     .nav {
-        font-size: 1.5rem;
+        font-size: 1.2rem;
         display: flex;
         /* flex-direction: column; */
-        align-items: flex-end;
+        justify-content: space-evenly;
     }
     .nav h1{
         padding: 6rem 3rem; 
       }
     .contact-info{
-       font-size: 1rem;
+       font-size: .8rem;
        color: white;
+      }
+      .contact-info p{
+        color: white;
       }
 
     .initial-picture {
