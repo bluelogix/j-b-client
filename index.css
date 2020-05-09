@@ -290,44 +290,43 @@ a {
 
 /* FOOTER */
 
-.footer {
+/* .footer {
   display: flex;
   justify-content: center;
     background: rgb(93, 93, 93);
     color: white;
     padding: 2.5rem 0;
     font-size: 1.7rem;
-}
-.form-box {
-  /* border: 2px solid black; */
-  /* padding: 9rem 0; */
+} */
+/* .form-box {
+
   border-radius: 2rem;
   background-color: rgb(255, 255, 255);
-}
-.form-box h1 {
+} */
+/* .form-box h1 {
   color: red;
   text-align: center;
-}
-.footer input {
+} */
+/* .footer input {
     border-radius: 1rem;
     background:#2F303A;
     border: none;
     padding: 1rem;
-    /* margin-top: 2rem; */
+  
     font-size: 2rem;
     color: white; 
     margin: 2rem 2rem;
-} 
-.desc {
+}  */
+/* .desc {
   padding: 10rem 0;
 }
 .footer input:focus {
   outline: none;
-}
+} */
 
-.copy{
+/* .copy{
     font-size: 2rem;
-} 
+}  */
 
 
 
