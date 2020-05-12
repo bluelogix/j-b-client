@@ -290,14 +290,39 @@ a {
 
 /* FOOTER */
 
-/* .footer {
+.footer {
   display: flex;
   justify-content: center;
+  /* align-items: center; */
     background: rgb(93, 93, 93);
     color: white;
     padding: 2.5rem 0;
-    font-size: 1.7rem;
-} */
+    font-size: 1.3rem;
+}
+.address-info {
+  padding-right: 2rem;
+}
+.contact-form {
+  text-align: center;
+  border: 2px solid black;
+  padding: 2rem;
+  border-radius: 5px;
+  background-color: rgb(36, 83, 185);
+}
+.contact-form input {
+  background-color: rgb(36, 83, 185);
+  color: white;
+  margin: 1.3rem 0;
+  padding: 1rem 0;
+  border: none;
+  border-bottom: 2px solid black;
+}
+input:focus {
+ outline: none;
+}
+::placeholder {
+  color: white;
+}
 /* .form-box {
 
   border-radius: 2rem;
