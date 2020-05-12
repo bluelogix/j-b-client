@@ -301,24 +301,43 @@ a {
 }
 .address-info {
   padding-right: 2rem;
+  margin-top: 8rem;
 }
 .contact-form {
   text-align: center;
   border: 2px solid black;
-  padding: 2rem;
+  padding: 1rem;
   border-radius: 5px;
   background-color: rgb(36, 83, 185);
+}
+.contact-form h1 {
+  font-size: 2.5rem;
 }
 .contact-form input {
   background-color: rgb(36, 83, 185);
   color: white;
   margin: 1.3rem 0;
-  padding: 1rem 0;
+  padding: .7rem 0;
+  padding-right: 3rem;
   border: none;
   border-bottom: 2px solid black;
 }
 input:focus {
  outline: none;
+}
+/* #desc{
+  padding-bottom: 9rem;
+} */
+textarea {
+  background-color: rgb(36, 83, 185);
+  padding-top: 1rem;
+  padding-right: 2rem;
+  color: white;
+  border: none;
+  border-bottom: 2px solid black;
+}
+textarea:focus {
+  outline: none;
 }
 ::placeholder {
   color: white;
