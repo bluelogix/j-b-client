@@ -45,5 +45,17 @@
           display: flex;
           flex-direction: column;
       }
+      .footer {
+        display: flex;
+        flex-direction: column;
+      }
+      .address-info {
+        text-align: center;
+      }
+      .contact-form {
+        /* margin-top: 3rem; */
+        margin: 1.3rem 0;
+        padding: 0;
+      }
    
 }
