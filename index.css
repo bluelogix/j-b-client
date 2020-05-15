@@ -175,7 +175,6 @@ body {
   padding: .5rem 2rem;
   margin: 0 .3rem;
 }
-
 a {
     text-decoration: none;
     color: black;
@@ -303,7 +302,7 @@ a {
   font-size: 1.7rem;
   padding-right: 2rem;
   margin-top: 8rem;
-  text-align: center;
+  /* text-align: center; */
 }
 .contact-form {
   text-align: center;
@@ -315,9 +314,9 @@ a {
 .contact-form h1 {
   font-size: 2.5rem;
 }
-.footer h2 {
+/* .footer h2 {
   text-align: center;
-}
+} */
 .contact-form input {
   background-color: rgb(0, 41, 129);
   color: white;
@@ -335,7 +334,6 @@ input:focus {
 } */
 textarea {
   background-color: rgb(0, 41, 129);
-
   padding-top: 1rem;
   padding-right: 2rem;
   color: white;
