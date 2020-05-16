@@ -194,6 +194,9 @@ a {
     background-repeat: no-repeat;
     background-size: cover;
   }
+  .call {
+    font-size: 1.5rem;
+  }
   .about-me {
     padding: 5rem 2rem;
     margin: 2rem 3rem;
